@@ -26,5 +26,8 @@ XX, YY = np.meshgrid(x, y)
 
 ZZ = np.sin(XX) * np.cos(YY)
 
-sine.plot_surface(XX, YY, ZZ, cmap = "hsv")
+sine.plot_surface(XX, YY, ZZ, cmap = "vanimo")
+
+# sine.view_init(azim=0, elev = 90) '''This shows default perspective as top down'''
+
 plt.show()
