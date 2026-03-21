@@ -11,7 +11,7 @@ from matplotlib.animation import PillowWriter
 np.random.seed(19680801)
 
 
-metadata = dict(title='Movie', artist='codinglikemad')
+metadata = dict(title='Movie', artist='me')
 # writer = PillowWriter(fps=15, metadata=metadata)
 writer = PillowWriter(fps=15, metadata=metadata)
 
